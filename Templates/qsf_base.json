@@ -1,0 +1,61 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_012345678912345",
+    "SurveyName": "Generated Survey",
+    "SurveyStatus": "Inactive",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "LastModified": "2025-01-01 00:00:00",
+    "BrandID": "",
+    "OwnerID": "",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "UserLanguage": "ES",
+    "ActiveResponseSet": "RS_012345678912345",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "",
+    "SurveyBrandID": "",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_012345678912345",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": []
+    },
+    {
+      "SurveyID": "SV_012345678912345",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Type": "Root",
+        "FlowID": "FL_1",
+        "Flow": []
+      }
+    },
+    {
+      "SurveyID": "SV_012345678912345",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "SurveyExpiryDate": "3000-01-01 00:00:00",
+        "NextButton": "  >>  ",
+        "PreviousButton": "  <<  ",
+        "SkinLibrary": "qualtrics",
+        "SkinType": "core",
+        "Skin": "qualtrics",
+        "SurveyLanguage": "ES"
+      }
+    }
+  ]
+}

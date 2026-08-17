@@ -1,0 +1,150 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_012345678912345",
+    "SurveyName": "Encuesta de Satisfacción Demo",
+    "SurveyStatus": "Inactive",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "LastModified": "2025-01-01 00:00:00",
+    "BrandID": "",
+    "OwnerID": "",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "UserLanguage": "ES",
+    "ActiveResponseSet": "RS_012345678912345",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "",
+    "SurveyBrandID": "",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_012345678912345",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": [
+        {
+          "ID": "BL_default",
+          "Type": "Default",
+          "Description": "Default Question Block",
+          "BlockElements": [
+            {
+              "Type": "Question",
+              "QuestionID": "QID1"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SurveyID": "SV_012345678912345",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Type": "Root",
+        "FlowID": "FL_1",
+        "Flow": [
+          {
+            "ID": "BL_default",
+            "Type": "Block",
+            "FlowID": "FL_2"
+          }
+        ]
+      }
+    },
+    {
+      "SurveyID": "SV_012345678912345",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "SurveyExpiryDate": "3000-01-01 00:00:00",
+        "NextButton": "  >>  ",
+        "PreviousButton": "  <<  ",
+        "SkinLibrary": "qualtrics",
+        "SkinType": "core",
+        "Skin": "qualtrics",
+        "SurveyLanguage": "ES"
+      }
+    },
+    {
+      "SurveyID": "SV_012345678912345",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID1",
+      "SecondaryAttribute": "¿Cuál es tu nivel de satisfacc",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "¿Cuál es tu nivel de satisfacción con nuestro servicio?",
+        "DefaultChoices": "False",
+        "DataExportTag": "SATISFACTION",
+        "QuestionID": "QID1",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 4,
+        "NextAnswerId": 1,
+        "QuestionDescription": "¿Cuál es tu nivel de satisfacción con nuestro servicio?",
+        "Choices": {
+          "1": {
+            "Display": "Muy satisfecho"
+          },
+          "2": {
+            "Display": "Satisfecho"
+          },
+          "3": {
+            "Display": "Insatisfecho"
+          }
+        },
+        "ChoiceOrder": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "SurveyID": "SV_012345678912345",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID2",
+      "SecondaryAttribute": "Por favor comparte comentarios",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Por favor comparte comentarios adicionales sobre tu experiencia:",
+        "DefaultChoices": "False",
+        "DataExportTag": "FEEDBACK",
+        "QuestionID": "QID2",
+        "QuestionType": "TE",
+        "Selector": "SL",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 1,
+        "NextAnswerId": 1,
+        "QuestionDescription": "Por favor comparte comentarios adicionales sobre tu experiencia:",
+        "Choices": {}
+      }
+    }
+  ]
+}
